@@ -9,7 +9,7 @@
 "url": "https://papuanewguinea.mafint.org/flying/request-flight",
 "desc": "PNG 오지 활주로 비행 요청 창구. 파트너 조건 확인 필요.",
 "checked": "2026.10.26",
-"new": true
+"new": false
 },
 {
 "type": "official",
@@ -21,7 +21,7 @@
 "url": "https://kenya.mafint.org/flying/request-flight",
 "desc": "케냐 북부 등 오지 구간 비행 요청.",
 "checked": "2026.10.26",
-"new": true
+"new": false
 },
 {
 "type": "official",
@@ -33,7 +33,7 @@
 "url": "https://madagascar.mafint.org/flying/request-flight",
 "desc": "마다가스카르 내륙 비행 요청 창구.",
 "checked": "2026.10.26",
-"new": true
+"new": false
 },
 {
 "type": "official",
@@ -45,7 +45,7 @@
 "url": "https://tanzania.mafint.org/flying/request-flight",
 "desc": "탄자니아 오지 비행 요청 창구.",
 "checked": "2026.10.26",
-"new": true
+"new": false
 },
 {
 "type": "official",
@@ -57,7 +57,7 @@
 "url": "https://chad.mafint.org/flying/request-flight",
 "desc": "차드 오지·인도적 구간 비행 요청.",
 "checked": "2026.10.26",
-"new": true
+"new": false
 },
 {
 "type": "official",
@@ -69,7 +69,7 @@
 "url": "https://www.mafint.org/",
 "desc": "MAF 국가 포털(PNG·케냐·남수단·미얀마·동티모르 등) 입구.",
 "checked": "2026.10.26",
-"new": true
+"new": false
 },
 {
 "type": "official",
@@ -81,7 +81,7 @@
 "url": "https://aimair.org/",
 "desc": "케냐 기반 선교사·사역 단체용 항공 지원.",
 "checked": "2026.10.26",
-"new": true
+"new": false
 },
 {
 "type": "official",
@@ -93,7 +93,7 @@
 "url": "https://asasdesocorro.org.br/",
 "desc": "브라질 아마존 원주민 지역 선교 항공·의료 지원 단체.",
 "checked": "2026.10.26",
-"new": true
+"new": false
 },
 {
 "type": "official",
@@ -106,7 +106,7 @@
 "url": "https://www.samaritanaviation.org/",
 "desc": "PNG 세픽강 유역 수상비행기 응급 의료 후송.",
 "checked": "2026.10.26",
-"new": true
+"new": false
 },
 {
 "type": "official",
@@ -118,7 +118,7 @@
 "url": "https://www.ethnos360aviation.org/",
 "desc": "오지 부족 사역을 위한 선교 항공(PNG·인니 등).",
 "checked": "2026.10.26",
-"new": true
+"new": false
 },
 {
 "type": "official",
@@ -131,7 +131,7 @@
 "url": "https://www.mti.org/",
 "desc": "파송 전 훈련·귀국 디브리핑 등 선교사 돌봄 프로그램.",
 "checked": "2026.10.26",
-"new": true
+"new": false
 },
 {
 "type": "official",
@@ -143,7 +143,7 @@
 "url": "https://www.headington-institute.org/",
 "desc": "현장 인력 스트레스·트라우마 회복력 자료.",
 "checked": "2026.10.26",
-"new": true
+"new": false
 },
 {
 "type": "official",
@@ -156,7 +156,7 @@
 "url": "https://www.oscar.org.uk/",
 "desc": "선교사 돌봄·훈련·위기 지원 기관을 찾는 영국 정보 서비스.",
 "checked": "2026.10.26",
-"new": true
+"new": false
 },
 {
 "type": "official",
@@ -167,7 +167,8 @@
 "region": "아프리카",
 "url": "https://uganda.mafint.org/flying/request-flight",
 "desc": "오지 구간 항공 이동 요청 창구. Partnership Agreement 필요.",
-"checked": "2026.10.26"
+"checked": "2026.10.26",
+"new": false
 },
 {
 "type": "official",
@@ -178,7 +179,8 @@
 "region": "전 세계",
 "url": "https://www.jaars.org/land",
 "desc": "오지 차량·보트 운용과 정비 훈련 안내.",
-"checked": "2026.10.26"
+"checked": "2026.10.26",
+"new": false
 },
 {
 "type": "official",
@@ -189,7 +191,8 @@
 "region": "전 세계",
 "url": "https://www.faithcomesbyhearing.com/audio-bible-resources/partner-resources",
 "desc": "다언어 오디오 성경과 오프라인 재생 도구.",
-"checked": "2026.10.26"
+"checked": "2026.10.26",
+"new": false
 },
 {
 "type": "official",
@@ -200,7 +203,8 @@
 "region": "전 세계",
 "url": "https://globalrecordings.net/en/5fish",
 "desc": "수천 개 언어의 복음 음성 녹음 앱.",
-"checked": "2026.10.26"
+"checked": "2026.10.26",
+"new": false
 },
 {
 "type": "official",
@@ -212,7 +216,8 @@
 "region": "전 세계",
 "url": "https://docs.bloomlibrary.org/bloom-platform/",
 "desc": "현지어 그림책 제작·배포 도구.",
-"checked": "2026.10.26"
+"checked": "2026.10.26",
+"new": false
 },
 {
 "type": "official",
@@ -223,7 +228,8 @@
 "region": "전 세계",
 "url": "https://keyman.com/en/android/",
 "desc": "소수 언어 문자 입력 키보드(안드로이드).",
-"checked": "2026.10.26"
+"checked": "2026.10.26",
+"new": false
 },
 {
 "type": "official",
@@ -235,7 +241,8 @@
 "region": "전 세계",
 "url": "https://sonsetsolutions.org/sonsetlink/",
 "desc": "태양광·물 펌프 원격 모니터링.",
-"checked": "2026.10.26"
+"checked": "2026.10.26",
+"new": false
 },
 {
 "type": "official",
@@ -246,7 +253,8 @@
 "region": "전 세계",
 "url": "https://sonsetsolutions.org/power-solutions/",
 "desc": "오지용 태양광 전력 시스템.",
-"checked": "2026.10.26"
+"checked": "2026.10.26",
+"new": false
 },
 {
 "type": "official",
@@ -257,7 +265,8 @@
 "region": "아프리카",
 "url": "https://www.0404.go.kr/bbs/safetyNtc/ATC0000000048648/detail",
 "desc": "해외안전여행 사이트의 오지 방문 주의 공지.",
-"checked": "2026.10.26"
+"checked": "2026.10.26",
+"new": false
 },
 {
 "type": "official",
@@ -269,7 +278,8 @@
 "region": "전 세계",
 "url": "https://www.disasterready.org/certificate-safety-security",
 "desc": "무료 온라인 안전·보안 인증 과정.",
-"checked": "2026.10.26"
+"checked": "2026.10.26",
+"new": false
 },
 {
 "type": "official",
@@ -280,7 +290,8 @@
 "region": "전 세계",
 "url": "https://barnabas.org/contact-us/new-carerequest/",
 "desc": "선교사 상담·돌봄 요청 창구.",
-"checked": "2026.10.26"
+"checked": "2026.10.26",
+"new": false
 },
 {
 "type": "official",
@@ -291,7 +302,8 @@
 "region": "전 세계",
 "url": "https://joshuaproject.net/data",
 "desc": "종족·언어·국가 데이터.",
-"checked": "2026.10.26"
+"checked": "2026.10.26",
+"new": false
 },
 {
 "type": "official",
@@ -302,7 +314,8 @@
 "region": "전 세계",
 "url": "https://peoplegroups.org/downloads/",
 "desc": "종족 데이터 파일 다운로드.",
-"checked": "2026.10.26"
+"checked": "2026.10.26",
+"new": false
 },
 {
 "type": "official",
@@ -313,7 +326,8 @@
 "region": "전 세계",
 "url": "https://learningequality.org/kolibri/about-kolibri/",
 "desc": "인터넷 없이 쓰는 학습 플랫폼.",
-"checked": "2026.10.26"
+"checked": "2026.10.26",
+"new": false
 },
 {
 "type": "official",
@@ -325,7 +339,8 @@
 "region": "전 세계",
 "url": "https://organicmaps.app/",
 "desc": "오프라인 지도·내비게이션 앱.",
-"checked": "2026.10.26"
+"checked": "2026.10.26",
+"new": false
 },
 {
 "type": "case",
@@ -338,7 +353,8 @@
 "region": "아마존",
 "url": "",
 "desc": "2023년 한국 교회 선교 서신. 강 수위 저하로 보트 보급이 끊기고 전력 확보가 어려웠던 경험.",
-"checked": "2026.10.26"
+"checked": "2026.10.26",
+"new": false
 },
 {
 "type": "case",
@@ -350,7 +366,8 @@
 "region": "아마존",
 "url": "",
 "desc": "2025년 교회 서신. 보트 이동, 태양광 설치, 위성 인터넷으로 사역 연결.",
-"checked": "2026.10.26"
+"checked": "2026.10.26",
+"new": false
 },
 {
 "type": "case",
@@ -362,7 +379,8 @@
 "region": "파푸아뉴기니",
 "url": "",
 "desc": "병원까지 보트로 5–7일 걸리던 마을이 활주로 개설 후 항공 약 25분으로 단축.",
-"checked": "2026.10.26"
+"checked": "2026.10.26",
+"new": false
 },
 {
 "type": "case",
@@ -374,7 +392,8 @@
 "region": "마다가스카르",
 "url": "",
 "desc": "이틀 넘는 육로를 1시간 40분 비행으로 대체한 사례.",
-"checked": "2026.10.26"
+"checked": "2026.10.26",
+"new": false
 },
 {
 "type": "case",
@@ -386,7 +405,8 @@
 "region": "마다가스카르",
 "url": "",
 "desc": "MAF 항공 후 쿼드바이크로 마지막 구간을 이동한 번역 사역.",
-"checked": "2026.10.26"
+"checked": "2026.10.26",
+"new": false
 },
 {
 "type": "case",
@@ -398,7 +418,8 @@
 "region": "아시아·태평양",
 "url": "",
 "desc": "2020년 팬데믹 중 선교사 자녀 학생들의 귀가·복귀 항공 지원.",
-"checked": "2026.10.26"
+"checked": "2026.10.26",
+"new": false
 },
 {
 "type": "case",
@@ -410,7 +431,8 @@
 "region": "파푸아뉴기니",
 "url": "",
 "desc": "오지 진료소에 태양광 조명과 무전 장비를 보급한 사례.",
-"checked": "2026.10.26"
+"checked": "2026.10.26",
+"new": false
 },
 {
 "type": "official",
@@ -421,7 +443,8 @@
 "region": "아프리카",
 "url": "https://power.sil.org/",
 "desc": "SIL 파트너 대상 태양광·전력 시스템 자문 안내(영어). 자격·비용·이용 가능 여부는 해당 기관에 직접 확인하세요.",
-"checked": "2026.10.26"
+"checked": "2026.10.26",
+"new": false
 },
 {
 "type": "official",
@@ -432,7 +455,8 @@
 "region": "전 세계",
 "url": "https://power.sil.org/starlink/",
 "desc": "오지 Starlink 운용 경험 정리(영어). 서비스 지역 예외 관련 문의처가 페이지에 안내되어 있음(본 사이트의 추천·제휴 아님). 자격·비용·이용 가능 여부는 해당 기관에 직접 확인하세요.",
-"checked": "2026.10.26"
+"checked": "2026.10.26",
+"new": false
 },
 {
 "type": "official",
@@ -443,7 +467,8 @@
 "region": "전 세계",
 "url": "https://power.sil.org/operating-starlink-on-only-solar-power/",
 "desc": "태양광+Starlink 참고 설계와 전력 소비 계산(영어). 자격·비용·이용 가능 여부는 해당 기관에 직접 확인하세요.",
-"checked": "2026.10.26"
+"checked": "2026.10.26",
+"new": false
 },
 {
 "type": "official",
@@ -454,7 +479,8 @@
 "region": "전 세계",
 "url": "https://www.jaars.org/air",
 "desc": "성경번역 현장 항공 지원·조종사 훈련 개요(영어). 자격·비용·이용 가능 여부는 해당 기관에 직접 확인하세요.",
-"checked": "2026.10.26"
+"checked": "2026.10.26",
+"new": false
 },
 {
 "type": "official",
@@ -465,7 +491,8 @@
 "region": "전 세계",
 "url": "https://www.jaars.org/",
 "desc": "오지 번역 현장의 이동·기술 지원 단체 소개(영어). 자격·비용·이용 가능 여부는 해당 기관에 직접 확인하세요.",
-"checked": "2026.10.26"
+"checked": "2026.10.26",
+"new": false
 },
 {
 "type": "press",
@@ -477,7 +504,8 @@
 "region": "국내",
 "url": "https://www.kmib.co.kr/article/view.asp?arcid=1755503772",
 "desc": "국민일보(2025.08.19) 보도: 선교사 대상 숙소·차량·의료(백내장 수술 등) 지원 소개. 보도 기준 · 현재 운영 여부 확인 필요 · 본 사이트와 제휴 아님. 자격·비용·이용 가능 여부는 해당 기관에 직접 확인하세요.",
-"checked": "2026.10.26"
+"checked": "2026.10.26",
+"new": false
 },
 {
 "type": "press",
@@ -489,6 +517,203 @@
 "region": "국내",
 "url": "https://www.christiandaily.co.kr/news/165027",
 "desc": "기독일보(2026.10.06) 보도: 감리회 소속 선교사 대상 원격 진료·건강검진 플랫폼, 내년 정식 가동 예정. 관련 보도: 기독교타임즈 https://www.kmctimes.com/news/articleView.html?idxno=60544 (2026.10.01). 자격은 교단에 확인. 자격·비용·이용 가능 여부는 해당 기관에 직접 확인하세요.",
-"checked": "2026.10.26"
+"checked": "2026.10.26",
+"new": false
+},
+{
+"type": "official",
+"title": "WHO 국제 여행·건강 안내",
+"cat": [
+"의료 접근"
+],
+"region": "전 세계",
+"url": "https://www.who.int/travel-advice",
+"desc": "여행 전 예방접종·감염병 위험 등 WHO 공식 여행 건강 안내.",
+"checked": "2026.10.27",
+"new": true,
+"next": "출국 4~8주 전 목적지 예방접종 요건을 확인하고 국내 여행의학 클리닉과 상의하세요."
+},
+{
+"type": "official",
+"title": "CDC 여행자 건강 (Travelers' Health)",
+"cat": [
+"의료 접근"
+],
+"region": "전 세계",
+"url": "https://wwwnc.cdc.gov/travel",
+"desc": "미국 CDC의 국가별 예방접종·말라리아 예방 권고.",
+"checked": "2026.10.27",
+"new": true,
+"next": "목적지 국가 페이지에서 말라리아·황열 권고를 확인하세요."
+},
+{
+"type": "official",
+"title": "IAMAT 국제 여행자 의료 지원",
+"cat": [
+"의료 접근"
+],
+"region": "전 세계",
+"url": "https://www.iamat.org/",
+"desc": "해외 의료기관·감염병 정보를 제공하는 비영리 단체(회원제).",
+"checked": "2026.10.27",
+"new": true
+},
+{
+"type": "official",
+"title": "Hesperian 보건 자료 (Where There Is No Doctor 등)",
+"cat": [
+"의료 접근"
+],
+"region": "전 세계",
+"url": "https://hesperian.org/",
+"desc": "의사가 없는 곳을 위한 지역사회 보건 안내서 발행 비영리 단체. 일부 자료 무료 열람.",
+"checked": "2026.10.27",
+"new": true
+},
+{
+"type": "official",
+"title": "WHO 긴급 의료 키트 안내",
+"cat": [
+"물자·생활 기반"
+],
+"region": "전 세계",
+"url": "https://www.who.int/emergencies/emergency-health-kits",
+"desc": "재난·인도적 상황용 표준 의료 키트 구성 안내.",
+"checked": "2026.10.27",
+"new": true
+},
+{
+"type": "official",
+"title": "ReliefWeb 재난 현황",
+"cat": [
+"안전·위기 대비"
+],
+"region": "전 세계",
+"url": "https://reliefweb.int/disasters",
+"desc": "UN OCHA 운영. 국가별 재난·인도적 상황 보고서 모음.",
+"checked": "2026.10.27",
+"new": true,
+"next": "사역지 국가명으로 최근 상황 보고서를 확인하세요."
+},
+{
+"type": "official",
+"title": "GDACS 재난 경보",
+"cat": [
+"안전·위기 대비"
+],
+"region": "전 세계",
+"url": "https://www.gdacs.org/",
+"desc": "UN·EU 공동 지진·태풍·홍수 실시간 경보 시스템.",
+"checked": "2026.10.27",
+"new": true
+},
+{
+"type": "official",
+"title": "UK FCDO 해외여행 안전 정보",
+"cat": [
+"안전·위기 대비"
+],
+"region": "전 세계",
+"url": "https://www.gov.uk/foreign-travel-advice",
+"desc": "영국 외무부 국가별 안전·입국 정보. 한국 외교부 0404와 교차 확인용.",
+"checked": "2026.10.27",
+"new": true
+},
+{
+"type": "official",
+"title": "ACLED 분쟁 데이터",
+"cat": [
+"사역지·종족 연구"
+],
+"region": "전 세계",
+"url": "https://acleddata.com/",
+"desc": "정치폭력·분쟁 사건 데이터(일부 등록 필요).",
+"checked": "2026.10.27",
+"new": true
+},
+{
+"type": "official",
+"title": "HDX 인도적 데이터 교환",
+"cat": [
+"사역지·종족 연구"
+],
+"region": "전 세계",
+"url": "https://www.humdata.org/",
+"desc": "UN OCHA 운영 인도적 데이터셋(인구·보건·지도).",
+"checked": "2026.10.27",
+"new": true
+},
+{
+"type": "official",
+"title": "Ethnologue 세계 언어",
+"cat": [
+"성경·언어 자료"
+],
+"region": "전 세계",
+"url": "https://www.ethnologue.com/",
+"desc": "SIL International 발행 언어 정보. 상세 열람은 구독 필요.",
+"checked": "2026.10.27",
+"new": true
+},
+{
+"type": "official",
+"title": "Scripture Earth",
+"cat": [
+"성경·언어 자료"
+],
+"region": "전 세계",
+"url": "https://scriptureearth.org/",
+"desc": "소수 언어 성경·오디오·앱 다운로드 모음.",
+"checked": "2026.10.27",
+"new": true
+},
+{
+"type": "official",
+"title": "Kiwix 오프라인 위키",
+"cat": [
+"오프라인 교육"
+],
+"region": "전 세계",
+"url": "https://www.kiwix.org/en/applications/",
+"desc": "위키백과 등을 인터넷 없이 보는 무료 앱.",
+"checked": "2026.10.27",
+"new": true,
+"next": "출국 전 와이파이에서 필요한 언어팩을 받아 두세요."
+},
+{
+"type": "official",
+"title": "DisasterReady 무료 인도주의 교육",
+"cat": [
+"안전·위기 대비"
+],
+"region": "전 세계",
+"url": "https://www.disasterready.org/",
+"desc": "인도주의 실무자용 무료 온라인 강좌.",
+"checked": "2026.10.27",
+"new": true
+},
+{
+"type": "official",
+"title": "KOICA 한국국제협력단",
+"cat": [
+"사역자 돌봄"
+],
+"region": "국내",
+"url": "https://www.koica.go.kr/",
+"desc": "정부 개발협력 기관. 국가별 사업·봉사단 정보(선교 지원 기관 아님).",
+"checked": "2026.10.27",
+"new": true
+},
+{
+"type": "official",
+"title": "INSO 국제 NGO 안전기구",
+"cat": [
+"안전·위기 대비"
+],
+"region": "전 세계",
+"url": "https://www.insos.org/",
+"desc": "분쟁 지역 NGO 대상 안전 정보 제공(회원 NGO 대상).",
+"checked": "2026.10.27",
+"new": true
 }
 ]

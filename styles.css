@@ -59,3 +59,11 @@ h2{font-size:clamp(24px,4vw,30px);color:var(--g);margin:6px 0 0;letter-spacing:-
 .card:nth-child(even),.org:nth-child(even){padding-left:0;border-left:0}.stats{grid-template-columns:1fr 1fr}.sh{flex-direction:column;align-items:start}.ctl{flex-wrap:wrap}.ctl select{flex:1}}
 @media(max-width:420px){.grid{grid-template-columns:1fr}.grid button{min-height:auto}}
 @media(max-width:760px) and (min-width:0){.nav nav{display:flex;gap:12px;margin-left:auto}.nav nav a{font-size:13px}.badge{display:none}}
+
+.chips{mask-image:linear-gradient(90deg,#000 90%,transparent);scroll-snap-type:x proximity}.chips button{scroll-snap-align:start}.chips small{margin-left:6px;opacity:.7;font-size:12px}
+.chips button:focus-visible,.tabs button:focus-visible,.ctl :focus-visible,a:focus-visible{outline:2px solid var(--or);outline-offset:2px}
+.card h3 a{color:inherit;text-decoration:none}.card h3 a:hover{text-decoration:underline}
+.empty{padding:28px 0;color:var(--mu)}.empty button{font:inherit;min-height:44px;padding:0 18px;border-radius:99px;border:1px solid var(--g);background:transparent;color:var(--g);cursor:pointer}
+#list:empty::before{content:"자료 불러오는 중…";display:block;padding:20px 0;color:var(--mu)}
+@media(max-width:760px){.card{font-size:15px}.kv{font-size:14px}.cf a{min-height:44px;display:inline-flex;align-items:center}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
