@@ -1,0 +1,54 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>오지선교 도움 연결</title><meta name="description" content="접근이 어려운 선교 현장을 위한 정보 안내 시범판">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+<link rel="stylesheet" href="styles.css"></head><body>
+<a class="skip" href="#main">본문 바로가기</a>
+<header class="nav"><div class="wrap navin"><a class="logo" href="#top"><b>m·</b> 오지선교 도움 연결</a>
+<nav><a href="#help">현장 준비</a><a href="#resources">현장 기록</a><a href="#directory">공식 창구</a></nav><span class="badge">● 정보 안내 시범판</span></div></header>
+<main id="main"><div id="top"></div>
+<section class="hero wrap"><div class="hl"><p class="small">접근이 어려운 선교 현장을 위한 정보 안내</p>
+<h1>오지선교 현장에<br>필요한 도움을 찾다<span class="dot">.</span></h1>
+<p class="sub">의료·이동·통신·물자·안전.<br>접근이 어려운 선교 현장의 준비와 사역을 위한<br>정보와 공식 지원 경로를 안내합니다.</p>
+<a class="pill" href="#help">현장 준비 살펴보기 ↗</a></div>
+<div class="hr"><div class="big">↗</div><p>현장의 경험에서<br>배우고,<br>다음을 준비해요.</p><a class="tl" href="#resources">과거 현장 기록 읽기 →</a></div></section>
+<div class="wrap"><p class="emg" role="note"><b>지금 응급상황인가요?</b> 현지 응급 서비스·가까운 의료기관·파송기관 비상 연락처에 바로 연락하세요. 이 사이트는 긴급 요청을 접수하지 않아요.</p></div>
+
+<section id="help" class="wrap sec"><p class="eye">01 / PREPARE FOR THE FIELD</p>
+<div class="sh"><h2>현장에서 무엇이 필요한가요?</h2><p class="note">준비할 항목과 과거 사례를 함께 살펴보세요.</p></div>
+<div class="grid" id="helpGrid"></div>
+<details class="acc"><summary>의료·재정·교단 지원이 필요하다면, 상황을 적어보세요 <i>+</i></summary>
+<div class="accb"><p class="muted">적은 내용은 이 기기 안에서만 정리용으로 쓰이고, 어디에도 전송되지 않아요.</p>
+<textarea id="memo" rows="5" placeholder="예) 지역, 필요한 도움(의료·이동·재정), 소속 파송기관, 시급성"></textarea>
+<p class="muted">상황에 맞는 분야를 아래 자료실과 <a href="#directory">공식 창구</a>에서 확인한 뒤, 각 기관에 직접 문의하세요.</p></div></details></section>
+
+<section id="resources" class="wrap sec"><p class="eye">02 / FIELD RESOURCE LIBRARY</p>
+<div class="sh"><h2>필요할 때 꺼내보는 자료실</h2><p class="note">현재 공식 안내와 과거 현장 기록을<br>구분해서 살펴보세요.</p></div>
+<p class="intro">각 자료에는 원문 게시일(확인된 경우)과 이 자료집의 확인일을 함께 적었어요. ‘공식 안내’는 기관이 공개한 안내라는 뜻이며, 지금 신청이 열려 있거나 지원이 확정되었다는 뜻은 아니에요. 과거 사례는 당시의 경험으로, 현재의 필요나 지원 여부는 따로 확인해야 해요.</p>
+<dl class="stats" id="stats"></dl>
+<div class="off"><div><b>자료집으로 따로 보기</b><p class="muted">연결이 불안정한 현장에서도 볼 수 있도록 한 페이지로 모아 두었어요.</p></div>
+<div class="offl"><a href="collection.html">자료집 열기 →</a><a href="collection.html" download>HTML 내려받기</a><a href="resources.json" download>JSON 내려받기</a></div></div>
+<div class="tabs" id="tabs" role="tablist"></div>
+<div class="ctl"><input id="q" type="search" placeholder="기관·지역·주제 검색" aria-label="검색"><select id="region" aria-label="지역"><option value="">모든 지역</option></select><button id="reset" type="button">초기화</button></div>
+<div class="chips" id="chips"></div>
+<p class="count" id="count" aria-live="polite"></p>
+<div class="cards" id="list"></div>
+<details class="acc"><summary>게시일·확인일과 자료 구분에 대해 <i>+</i></summary><div class="accb">
+<p><b>공식 안내</b> — 기관 공식 사이트에서 확인한 현재 안내·도구. <b>과거 사례</b> — 지난 현장 기록이며 현재 상황과 다를 수 있어요. <b>보도·확인필요</b> — 언론·교계 보도로, 기관 원문 확인 전이에요.</p>
+<p><b>확인일</b>은 이 자료집이 원문 링크를 열어 본 날이고, <b>게시일</b>은 원문에 적힌 날짜예요. 확인일 이후 내용이 바뀌었을 수 있어요.</p></div></details>
+<details class="acc"><summary>자료실 업데이트 기록 <i>+</i></summary><div class="accb"><ul class="log">
+<li><b>v0.4-clone · 2026.10.26</b> 원본 시범판 구성에 맞춰 화면을 다시 정리, 모바일 대응</li>
+<li><b>v0.3 · 2026.10.26</b> MAF 국가별 비행 요청·AIM AIR·돌봄 기관 등 추가 (총 42건)</li>
+<li><b>v0.2 · 2026.10.26</b> SIL·Starlink·JAARS 안내, 보도 2건 추가</li>
+<li><b>v0.1 · 2026.10.26</b> 첫 초안 22건</li></ul></div></details></section>
+
+<section id="directory" class="wrap sec"><p class="eye">03 / OFFICIAL CHANNELS</p>
+<div class="sh"><h2>공식 창구</h2><p class="note">누구에게, 어떤 경로로 가는지<br>먼저 확인하세요.</p></div>
+<div class="chips" id="dchips"></div><div class="dir" id="dir"></div>
+<p class="fnote">확인일은 이 자료집이 각 기관의 공개 안내를 열어 본 날짜예요. 목록에 있다는 것이 기관과의 제휴·추천·지원 확정을 뜻하지 않아요. 자격·비용·수용 여부는 각 기관에 직접 확인하세요.</p></section></main>
+
+<footer class="foot"><div class="wrap fin"><p class="fbig">현장의 거리를 줄이는<br>작고 정확한 안내.</p>
+<div class="disc"><p>이 사이트는 신원 확인, 긴급 접수, 24시간 상담, 의료 진단, 지원금 지급을 하지 않아요.</p>
+<p>‘오지’는 물리적으로 접근이 어려운 현장을 뜻하며, ‘미전도종족’과 같은 말이 아니에요. 두 기준은 따로 살펴보세요.</p>
+<p>신청서나 개인정보를 받지 않아요. 지원 요청은 각 기관의 공식 창구로 직접 해 주세요.</p></div></div>
+<div class="wrap fbot"><span>오지선교 도움 연결 · 개신교 오지선교를 위한 정보 안내 시범판</span><span id="ed">자료집 편집 2026.10.26 · v0.4-clone</span></div></footer>
+<script src="data.js"></script><script src="app.js"></script></body></html>
