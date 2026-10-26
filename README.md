@@ -1,4 +1,4 @@
-# 오지선교 도움 연결 (v0.6 · JuYeong 작업본)
+# 오지선교 도움 연결 (v0.7 · JuYeong 작업본)
 
 접근이 어려운 개신교 선교 현장을 위한 정보 안내 단일 페이지 초안입니다. 현장 준비 분야, 자료실(공식 안내·과거 사례), 공식 창구를 한 페이지에 모았습니다. 서버 없이 브라우저에서만 동작하며, 개인정보를 받지 않습니다.
 
@@ -23,3 +23,7 @@
 - 공식 자료 12건 추가(IATA Timatic·EU 쉥겐/ETIAS·GOV.UK 비자 확인·미 국무부 여행경보·캐나다 여행정보·Sphere Handbook·GuideStar·Charity Navigator·ECFA·영국 Charity Commission·미 CFPB 송금) → 총 70건
 - 과거 사례 7건 중 5건 원문(MAF·Ethnos360) 링크 연결, KOICA는 '사역지·종족 연구'로 이동
 - 상세: REPORT-2026-10-27-v06.md
+
+## v0.7 (2026.10.27)
+- 브라우저로 확인한 공식 자료 3건 추가(KOREA VISA PORTAL·미 국무부 STEP·세계은행 Remittance Prices) → 총 73건
+- 상세: REPORT-2026-10-27-v07.md
