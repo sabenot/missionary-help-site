@@ -873,7 +873,7 @@
   "url": "https://www.visa.go.kr/",
   "desc": "법무부 한국 비자 안내·전자신청·진행 조회 공식 포털(영·중문 지원). 외국인 동역자 초청 시 확인.",
   "checked": "2026.10.27",
-  "new": true
+  "new": false
  },
  {
   "type": "official",
@@ -885,7 +885,7 @@
   "url": "https://mytravel.state.gov/s/step",
   "desc": "미 국무부 Smart Traveler Enrollment Program. 등록 시 현지 안전 공지 수신(로그인 필요, 미국 시민 대상).",
   "checked": "2026.10.27",
-  "new": true
+  "new": false
  },
  {
   "type": "official",
@@ -896,6 +896,67 @@
   "region": "전 세계",
   "url": "https://remittanceprices.worldbank.org/",
   "desc": "국가 간 송금 수수료·환율 마진 비교 공식 DB. 선교지 후원금 송금 경로 선택에 활용.",
+  "checked": "2026.10.27",
+  "new": false
+ },
+ {
+  "type": "official",
+  "title": "외교부 해외안전여행 (영사안전콜센터)",
+  "cat": [
+   "안전·위기 대비"
+  ],
+  "region": "국내",
+  "url": "https://www.0404.go.kr/",
+  "desc": "국가·지역별 여행경보(1~4단계·특별여행주의보)와 안전공지 공식 사이트. 영사안전콜센터 국내 02-3210-0404, 해외 +82-2-3210-0404(유료). 여행금지국 체류는 여권법상 처벌 대상이니 반드시 확인.",
+  "checked": "2026.10.27",
+  "new": true
+ },
+ {
+  "type": "official",
+  "title": "KWMA 한국세계선교협의회",
+  "cat": [
+   "사역자 돌봄",
+   "후원·재정"
+  ],
+  "region": "국내",
+  "url": "https://www.kwma.org/",
+  "desc": "19개 교단·136개 선교단체가 속한 한국교회 선교 협의체. 선교 정책·세제 관련 소식, 위기 지역 긴급구호 협력, 선교 아카이브. 문의 1833-3110 · kwma@kwma.org.",
+  "checked": "2026.10.27",
+  "new": true
+ },
+ {
+  "type": "official",
+  "title": "TravelHealthPro 국가별 건강 정보 (영국 NaTHNaC)",
+  "cat": [
+   "의료 접근"
+  ],
+  "region": "전 세계",
+  "url": "https://travelhealthpro.org.uk/countries",
+  "desc": "영국 정부 지원 여행보건센터의 국가별 예방접종·감염병 권고와 발병 소식(예: 콩고민주공화국 에볼라). WHO·CDC와 교차 확인용(영어).",
+  "checked": "2026.10.27",
+  "new": true
+ },
+ {
+  "type": "official",
+  "title": "Missionary Care (Koteskey 자료)",
+  "cat": [
+   "사역자 돌봄"
+  ],
+  "region": "전 세계",
+  "url": "https://www.missionarycare.com/",
+  "desc": "선교사 정신건강·재입국(re-entry)·선교사 자녀(TCK)·결혼·싱글 이슈 무료 소책자와 e-book 17권. 자유롭게 공유 가능(영어).",
+  "checked": "2026.10.27",
+  "new": true
+ },
+ {
+  "type": "official",
+  "title": "Member Care Associates (선교사 돌봄 자료 포털)",
+  "cat": [
+   "사역자 돌봄"
+  ],
+  "region": "전 세계",
+  "url": "https://membercareassociates.org/",
+  "desc": "Kelly·Michèle O'Donnell 박사의 선교사·구호 인력 돌봄 자료, 학회·훈련 일정, 한국어 자막 강의 등(영어).",
   "checked": "2026.10.27",
   "new": true
  }
