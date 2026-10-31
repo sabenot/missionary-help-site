@@ -49,3 +49,23 @@ let qt;$("#q").oninput=()=>{clearTimeout(qt);qt=setTimeout(render,150)};$("#regi
 $("#reset").onclick=()=>{S.cat="";S.type="official";$("#q").value="";$("#region").value="";render()};
 const m=$("#memo");m.value=localStorage.getItem("memo")||"";m.oninput=()=>localStorage.setItem("memo",m.value);
 render();renderDir();const on=$("#chips .on");on&&on.scrollIntoView({block:"nearest",inline:"center"});
+
+/* v1.3 게시판: GitHub Issues (label 게시판) */
+(function(){
+  var list=document.getElementById('boardList'),st=document.getElementById('boardStatus');if(!list||!st)return;
+  var ALL='https://github.com/sabenot/missionary-help-site/issues?q=label%3A%EA%B2%8C%EC%8B%9C%ED%8C%90';
+  function esc(t){return String(t==null?'':t).replace(/[&<>"']/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]})}
+  function day(d){try{return new Intl.DateTimeFormat('sv-SE',{timeZone:'Asia/Seoul'}).format(new Date(d))}catch(e){return String(d).slice(0,10)}}
+  function snip(b){b=String(b||'').replace(/<!--[\s\S]*?-->/g,'').replace(/[#*_>`\[\]]/g,'').replace(/\s+/g,' ').trim();return b.length>120?b.slice(0,120)+'…':b}
+  fetch('https://api.github.com/repos/sabenot/missionary-help-site/issues?labels='+encodeURIComponent('게시판')+'&state=open&per_page=20&sort=updated',{headers:{'Accept':'application/vnd.github+json','X-GitHub-Api-Version':'2022-11-28'}})
+  .then(function(r){if(!r.ok)throw new Error(r.status);return r.json()})
+  .then(function(a){
+    a=(a||[]).filter(function(i){return !i.pull_request});
+    if(!a.length){st.textContent='아직 글이 없어요. 첫 글을 남겨 주세요.';return}
+    st.textContent='';
+    list.innerHTML=a.map(function(i){
+      var url=/^https:\/\/github\.com\//.test(i.html_url)?i.html_url:ALL,s=snip(i.body);
+      return '<article class="post"><h3><a href="'+esc(url)+'" target="_blank" rel="noopener noreferrer">'+esc(i.title)+'</a></h3>'+(s?'<p>'+esc(s)+'</p>':'')+'<div class="meta"><span>@'+esc(i.user&&i.user.login)+'</span><span>'+esc(day(i.updated_at))+'</span><span>댓글 '+(+i.comments||0)+'</span></div></article>'}).join('');
+  })
+  .catch(function(){st.innerHTML='목록을 불러오지 못했습니다. <a class="blink" href="'+ALL+'" target="_blank" rel="noopener noreferrer">GitHub에서 직접 봐 주세요</a>'});
+})();
