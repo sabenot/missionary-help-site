@@ -48,7 +48,7 @@ $("#dchips").onclick=e=>{const b=e.target.closest("[data-d]");if(b){S.dc=b.datas
 let qt;$("#q").oninput=()=>{clearTimeout(qt);qt=setTimeout(render,150)};$("#region").onchange=render;
 $("#reset").onclick=()=>{S.cat="";S.type="official";$("#q").value="";$("#region").value="";render()};
 const m=$("#memo");m.value=localStorage.getItem("memo")||"";m.oninput=()=>localStorage.setItem("memo",m.value);
-render();renderDir();const on=$("#chips .on");on&&on.scrollIntoView({block:"nearest",inline:"center"});
+render();renderDir();{const on=$("#chips .on"),ch=$("#chips");if(on&&ch){const d=on.getBoundingClientRect().left-ch.getBoundingClientRect().left;ch.scrollLeft+=d-(ch.clientWidth-on.offsetWidth)/2}}
 
 /* v1.3 게시판: GitHub Issues (label 게시판) */
 (function(){
